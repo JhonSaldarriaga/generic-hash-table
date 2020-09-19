@@ -1,6 +1,6 @@
 package hashstructure;
 
-	public class HashNode<K extends Comparable<K>, V> {
+	public class HashNode<K extends Comparable<K>, V> implements InterfaceHashNode<K, V>{
 
 	private K key; 
 	private V value; 
